@@ -11,5 +11,8 @@ export default {
       },
     },
   },
-  plugins: [require("tw-elements/plugin.cjs")],
+  exports: {
+    plugins: [require("flowbite/plugin")],
+    content: ["node_modules/flowbite-react/lib/esm/**/*.js"],
+  },
 };
