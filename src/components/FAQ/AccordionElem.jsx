@@ -51,7 +51,14 @@ const AccordionElem = () => {
               {"'"}été bohème, salopette en jean ... tout passe !
             </div>{" "}
             Si tu es en manque d{"'"}
-            inspi, tu peux te diriger sur ce Pinterest Board
+            inspi, tu peux te diriger sur ce{" "}
+            <a
+              href="https://www.pinterest.fr/claireyuansong/mamma-mia-inspo/"
+              className="text-pink-600 font-semibold hover:text-pink-500"
+            >
+              {" "}
+              Pinterest Board
+            </a>
           </div>
         </AccordionContent>
       </AccordionPanel>
