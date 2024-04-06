@@ -6,12 +6,12 @@ const FAQ = () => {
   initTWE({ Collapse });
 
   const questionStyle =
-    "group relative text-slate-500 font-bold flex w-full items-center rounded-t-lg border-0 bg-white px-5 py-4 text-left text-base text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none [&:not([data-twe-collapse-collapsed])]:bg-white [&:not([data-twe-collapse-collapsed])]:text-pink-600 [&:not([data-twe-collapse-collapsed])]:shadow-border-b  ";
+    "group relative text-slate-500 lg:text-2xl font-bold flex w-full items-center rounded-t-lg border-0 bg-white px-5 py-4 text-left text-base text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none [&:not([data-twe-collapse-collapsed])]:bg-white [&:not([data-twe-collapse-collapsed])]:text-pink-600 [&:not([data-twe-collapse-collapsed])]:shadow-border-b  ";
   return (
     <div>
       <SectionHeader>
-        <p className="text-xs font-montserrat">C bo Jamy mais ...</p>J'ai encore
-        des questions
+        <p className="text-xs font-montserrat">C bo Jamy mais ...</p>J{"'"}ai
+        encore des questions
       </SectionHeader>
       <div id="accordionExample">
         <div className="rounded-t-lg border border-neutral-200 bg-white">
@@ -50,16 +50,22 @@ const FAQ = () => {
             aria-labelledby="headingOne"
             data-twe-parent="#accordionExample"
           >
-            <div className="px-5 py-4">
-              <strong>Très bonne question !</strong> Version courte : oui.
-              Version longue : évidemment que non, mais j'ai fait exprès de
-              choisir un thème très large pour accomoder tout le monde. Donc si
-              tu veux aller dans l'extravagance, sequin eleganza tout ça tout
-              ça, c'est parfait ! Et si jamais tu ne veux pas, le film se
-              déroule sur une île grecque farniente, donc chemise en lin blanc,
-              marinière, robe d'été bohème, salopette en jean ... tout passe !
+            <div className="px-5 py-4 flex flex-col gap-2">
+              <strong>Très bonne question !</strong>{" "}
               <p>
-                Si tu es en manque d'inspi, tu peux te diriger sur ce{" "}
+                Version courte : oui. Version longue : évidemment que non, mais
+                j{"'"}ai fait exprès de choisir un thème très large pour
+                accomoder tout le monde.
+              </p>
+              <p>
+                Donc si tu veux aller dans l{"'"}extravagance, sequin eleganza
+                tout ça tout ça, c{"'"}est parfait ! Et si jamais tu ne veux
+                pas, le film se déroule sur une île grecque farniente, donc
+                chemise en lin blanc, marinière, robe d{"'"}été bohème,
+                salopette en jean ... tout passe !
+              </p>
+              <p>
+                Si tu es en manque d{"'"}inspi, tu peux te diriger sur ce{" "}
                 <a
                   href="https://www.pinterest.fr/claireyuansong/mamma-mia-inspo/"
                   target="_blank"
@@ -151,11 +157,13 @@ const FAQ = () => {
             data-twe-parent="#accordionExample"
           >
             <div className="px-5 py-4">
-              <strong>Bien sûr ! The more the merrier !</strong> Je demanderai
-              juste à ce qu'ils remplissent le questionnaire car j'aurai besoin
-              d'une idée précise des personnes qui viennent ainsi que leurs
-              restrictions alimentaires. Hors de question que des personnes
-              aient faim le jour de mon anniv !
+              <strong>Bien sûr ! The more the merrier !</strong>{" "}
+              <p>
+                Je demanderai juste à ce qu{"'"}ils remplissent le questionnaire
+                car j{"'"}aurai besoin d{"'"}une idée précise des personnes qui
+                viennent ainsi que leurs restrictions alimentaires. Hors de
+                question que des personnes aient faim le jour de mon anniv !
+              </p>
             </div>
           </div>
         </div>
