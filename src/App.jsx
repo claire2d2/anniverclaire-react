@@ -31,12 +31,11 @@ function App() {
           <Deroule />
         </section>
 
-        <section className="h-2/5 bg-white">
+        <section className="h-dvh bg-white">
           <Form />
         </section>
 
-        <section className="h-2/5 bg-rose-100">
-          <h2>C'est beau Jamy mais... j'ai encore des questions !</h2>
+        <section className="h-2/5">
           <FAQ />
         </section>
       </div>
