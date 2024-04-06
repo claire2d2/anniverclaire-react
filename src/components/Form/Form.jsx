@@ -12,7 +12,14 @@ const Form = () => {
         className=" group w-full"
         onClick={() => setShowForm((prev) => !prev)}
       >
-        <SectionHeader>Je viens !</SectionHeader>
+        <SectionHeader>
+          Je viens !
+          <p className="text-xs font-montserrat italic">
+            {showForm
+              ? "Clique moi pour cacher le formulaire"
+              : "Clique moi pour montrer le formulaire"}
+          </p>{" "}
+        </SectionHeader>
       </button>
       <div
         className={`${

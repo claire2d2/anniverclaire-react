@@ -17,7 +17,7 @@ const Deroule = () => {
               className="object-fill"
             />
           </div>
-          <div className="basis-1/3 text-left flex flex-col justify-between py-10">
+          <div className="basis-1/3 text-center lg:text-left flex flex-col justify-between py-2 lg:py-10">
             <p className="lg:text-3xl">
               Car oui ! Cette soirée est{" "}
               <span className="font-bold text-lg text-pink-600 lg:text-3xl">

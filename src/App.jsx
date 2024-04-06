@@ -29,11 +29,11 @@ function App() {
           <Form />
         </section>
 
-        <section className="h-2/5">
+        <section className="h-3/5">
           <FAQ />
         </section>
 
-        <footer className="text-sm text-pink-600 h-3">
+        <footer className="text-xs lg:text-sm text-pink-600 h-3">
           Développé à l{"'"} arrache mais avec amour par votre chère et tendre
           Glaire ❤️
         </footer>

@@ -8,7 +8,7 @@ const FAQ = () => {
   const questionStyle =
     "group relative text-slate-500 lg:text-2xl font-bold flex w-full items-center rounded-t-lg border-0 bg-white px-5 py-4 text-left text-base text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none [&:not([data-twe-collapse-collapsed])]:bg-white [&:not([data-twe-collapse-collapsed])]:text-pink-600 [&:not([data-twe-collapse-collapsed])]:shadow-border-b  ";
   return (
-    <div>
+    <div className="flex flex-col h-full">
       <SectionHeader>
         <p className="text-xs font-montserrat">C bo Jamy mais ...</p>J{"'"}ai
         encore des questions
@@ -159,7 +159,7 @@ const FAQ = () => {
             <div className="px-5 py-4">
               <strong>Bien sûr ! The more the merrier !</strong>{" "}
               <p>
-                Je demanderai juste à ce qu{"'"}ils remplissent le questionnaire
+                Je demanderai juste à ce qu{"'"}ils remplissent le formulaire
                 car j{"'"}aurai besoin d{"'"}une idée précise des personnes qui
                 viennent ainsi que leurs restrictions alimentaires. Hors de
                 question que des personnes aient faim le jour de mon anniv !
