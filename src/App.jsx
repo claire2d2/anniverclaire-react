@@ -13,7 +13,7 @@ import backgroundImage from "../public/background.webp";
 function App() {
   return (
     <>
-      <div className="App w-screen font-montserrat">
+      <div className="App w-screen font-montserrat flex flex-col">
         <div className="w-full hidden lg:flex">
           <NavBar />
         </div>
@@ -24,10 +24,12 @@ function App() {
             Anniverglaire !
           </h1>
         </section>
-        <section className="Bday-info h-1/4">
+        <section className="Bday-info h-1/3">
           <BdayInfo />
         </section>
-        <section className="h-1/5 bg-rose-100">Déroulé</section>
+        <section className="h-full">
+          <Deroule />
+        </section>
 
         <section className="h-2/5 bg-white">
           <Form />
