@@ -13,21 +13,21 @@ import backgroundImage from "../public/background.webp";
 function App() {
   return (
     <>
-      <div className="App w-screen">
+      <div className="App w-screen font-montserrat">
         <div className="w-full hidden lg:flex">
           <NavBar />
         </div>
 
-        <section className="relative h-2/5 bg-red-500">
+        <section className="relative h-2/5">
           <img src={backgroundImage} className="object-cover h-full" />
-          <h1 className="absolute h-10 font-cedarville top-40 text-3xl font-normal w-full leading-normal mt-0 mb-2 text-pink-600">
-            anniverglaiiiire
+          <h1 className="absolute h-10 font-limelight top-40 text-4xl font-normal w-full leading-normal mt-0 mb-2 text-pink-600">
+            Anniverglaire !
           </h1>
         </section>
-        <section className="Bday-info">
+        <section className="Bday-info h-1/4">
           <BdayInfo />
         </section>
-        <section className="h-1/5 bg-rose-100"></section>
+        <section className="h-1/5 bg-rose-100">Déroulé</section>
 
         <section className="h-2/5 bg-white">
           <Form />
