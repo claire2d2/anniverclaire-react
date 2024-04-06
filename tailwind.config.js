@@ -6,7 +6,8 @@ export default {
     extend: {
       fontFamily: {
         cedarville: ['"Cedarville Cursive"', "sans-serif"],
-        yesteryear: ["Yesteryear", "sans-serif"],
+        montserrat: ["Montserrat", "sans-serif"],
+        limelight: ["Limelight", "sans-serif"],
       },
     },
   },
