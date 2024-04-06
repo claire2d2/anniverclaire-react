@@ -9,6 +9,9 @@ export default {
         montserrat: ["Montserrat", "sans-serif"],
         limelight: ["Limelight", "sans-serif"],
       },
+      backgroundImage: {
+        petals: "url('./src/assets/petals.avif')",
+      },
     },
   },
   exports: {

@@ -2,23 +2,23 @@ import SectionHeader from "./SectionHeader";
 
 const Deroule = () => {
   return (
-    <div className="h-full flex flex-col">
+    <div className="h-full flex flex-col bg-white bg-opacity-80">
       <SectionHeader>Déroulé</SectionHeader>
-      <div className="flex flex-col gap-2 px-2 py-2 bg-white items-center">
+      <div className="flex flex-col gap-2 px-2 py-2 items-center">
         <p>
           Déso Juliette Armanet mais ce n{"'"}est pas le dernier jour du 🪩
           <span className="font-bold text-lg text-pink-600">DISCO</span>🪩
         </p>
-        <div className="flex flex-col lg:flex-row lg:justify-center">
-          <div className="lg:basis-1/3">
+        <div className="flex flex-col lg:flex-row lg:justify-center lg:items-center lg:gap-3 xl:gap-5">
+          <div className="lg:basis-1/3 xl:basis-1/4">
             <img
               src="https://media4.giphy.com/media/2wXrSikk2c8llaunlr/giphy.gif?cid=6c09b952montzmlyeb1ocm947nv1wfsfcdfrpbilic1yb73b&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g"
               alt=""
               className="object-fill"
             />
           </div>
-          <div className="basis-1/3 text-center lg:text-left flex flex-col justify-between py-2 lg:py-10">
-            <p className="lg:text-3xl">
+          <div className="basis-1/3 text-justify lg:text-left flex flex-col justify-between">
+            <p className="lg:text-3xl lg:mb-5 lg:text-left text-center mb-3">
               Car oui ! Cette soirée est{" "}
               <span className="font-bold text-lg text-pink-600 lg:text-3xl">
                 DEGUISEE !

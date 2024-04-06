@@ -7,7 +7,7 @@ import NotFound from "./pages/NotFound";
 function App() {
   return (
     <>
-      <div className="App ">
+      <div className="App h-dvh w-screen">
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/*" element={<NotFound />} />

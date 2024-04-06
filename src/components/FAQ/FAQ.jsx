@@ -5,7 +5,7 @@ import AccordionElem from "./AccordionElem";
 
 const FAQSection = () => {
   return (
-    <div className="flex flex-col h-full">
+    <div className="flex flex-col h-full bg-white bg-opacity-80">
       <SectionHeader>
         <p className="text-xs font-montserrat">C bo Jamy mais ...</p>J{"'"}ai
         encore des questions
