@@ -13,14 +13,10 @@ import backgroundImage from "../public/background.webp";
 function App() {
   return (
     <>
-      <div className="App w-screen font-montserrat flex flex-col">
-        <div className="w-full hidden lg:flex">
-          <NavBar />
-        </div>
-
+      <div className="App w-screen font-montserrat flex flex-col overflow-scroll no-scrollbar">
         <section className="relative h-2/5">
-          <img src={backgroundImage} className="object-cover h-full" />
-          <h1 className="absolute h-10 font-limelight top-40 text-4xl font-normal w-full leading-normal mt-0 mb-2 text-pink-600">
+          <img src={backgroundImage} className="object-cover h-full w-full" />
+          <h1 className="absolute h-10 font-limelight top-40 text-4xl lg:text-6xl font-normal w-full leading-normal mt-0 mb-2 text-pink-600">
             Anniverglaire !
           </h1>
         </section>
@@ -31,13 +27,18 @@ function App() {
           <Deroule />
         </section>
 
-        <section className="h-dvh bg-white">
+        <section className="h-2/5 bg-white">
           <Form />
         </section>
 
         <section className="h-2/5">
           <FAQ />
         </section>
+
+        <footer className="text-sm text-pink-600">
+          Développé à l'arrache mais avec amour par votre chère et tendre Glaire
+          ❤️
+        </footer>
       </div>
     </>
   );
