@@ -1,5 +1,5 @@
 // import des components de la page
-import BdayInfo from "../components/BdayInfo";
+import BdayInfo from "../components/BdayInfo/BdayInfo";
 import Deroule from "../components/Deroule";
 import Form from "../components/Form/Form";
 import FAQ from "../components/FAQ/FAQ";
@@ -15,7 +15,7 @@ const LandingPage = () => {
           Anniverglaire !
         </h1>
       </section>
-      <section>
+      <section className="h-4/5">
         <BdayInfo />
       </section>
       <section>
