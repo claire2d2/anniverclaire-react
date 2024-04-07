@@ -15,18 +15,18 @@ const LandingPage = () => {
           Anniverglaire !
         </h1>
       </section>
-      <section className="Bday-info h-1/3">
+      <section>
         <BdayInfo />
       </section>
-      <section className="h-full">
+      <section>
         <Deroule />
       </section>
 
-      <section className="h-2/5 bg-white">
+      <section className="h-3/4 bg-white">
         <Form />
       </section>
 
-      <section className="h-3/5">
+      <section>
         <FAQ />
       </section>
 

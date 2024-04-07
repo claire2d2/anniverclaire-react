@@ -2,7 +2,7 @@ import SectionHeader from "./SectionHeader";
 
 const BdayInfo = () => {
   return (
-    <div className="bg-white bg-opacity-80 h-full flex flex-col lg:text-2xl">
+    <div className="bg-white bg-opacity-80 h-full flex flex-col lg:text-2xl w-full">
       <SectionHeader>Save the Date!</SectionHeader>
       <div className="py-2 flex flex-col items-center ">
         Tu es plus que cordialement invité·e à fêter mon passage dans la
