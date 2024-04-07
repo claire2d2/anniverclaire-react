@@ -21,16 +21,13 @@ const LandingPage = () => {
       <section>
         <Deroule />
       </section>
-
       <section className="h-3/4 bg-white">
         <Form />
       </section>
-
       <section>
         <FAQ />
       </section>
-
-      <footer className="text-xs w-full lg:text-sm text-pink-600 h-10 bg-white bg-opacity-80">
+      <footer className="object-bottom text-xs w-full lg:text-sm text-pink-600 h-10 bg-white bg-opacity-80">
         Développé à l{"'"} arrache mais avec amour par votre chère et tendre
         Glaire ❤️
       </footer>
