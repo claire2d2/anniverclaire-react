@@ -15,7 +15,7 @@ const LandingPage = () => {
           Anniverglaire !
         </h1>
       </section>
-      <section className="h-4/5">
+      <section>
         <BdayInfo />
       </section>
       <section>
