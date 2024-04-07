@@ -14,7 +14,7 @@ const panel = {
   base: "bg-transparent",
 };
 const title = {
-  base: "text-pink-600 w-full font-bold flex justify-between h-10 items-center",
+  base: "text-pink-600 w-full font-bold flex justify-between h-10 items-center px-3",
   flush: {
     off: "hover:bg-pink-500 focus:ring-4 focus:ring-pink-600 focus:text-white hover:text-white",
     on: "bg-transparent text-white ",
@@ -26,7 +26,7 @@ const title = {
 };
 
 const content = {
-  base: "bg-transparent text-left",
+  base: "bg-transparent text-left px-3",
 };
 
 const AccordionElem = () => {
@@ -54,6 +54,7 @@ const AccordionElem = () => {
             inspi, tu peux te diriger sur ce{" "}
             <a
               href="https://www.pinterest.fr/claireyuansong/mamma-mia-inspo/"
+              target="_blank"
               className="text-pink-600 font-semibold hover:text-pink-500"
             >
               {" "}
